@@ -51,9 +51,9 @@ param (
    
             }
 
-Write-Host "Pausing for 1 minute to allow changes to replicate"
+Write-Host "Pausing for 2 minutes to allow changes to replicate"
 
-Start-Sleep -Seconds 60
+Start-Sleep -Seconds 120
 
 Write-Host "Getting Response Groups to apply" 
  
